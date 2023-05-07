@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:600);
 
 *{
     margin: 0;
@@ -17,11 +17,17 @@ body{
     margin: auto;
     max-width: 1000px;
 }
-
+h1{
+    color:#17051F;
+    text-align:center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: max(1.2vw,26px);
+}
 header{
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     background-color: #17051F;
@@ -31,7 +37,7 @@ header{
     flex-wrap: wrap;
 }
 
-button{
+a{
     width: auto;
     padding: 10px;
     background-color: #a45ee5;
@@ -43,7 +49,7 @@ button{
     transition:all 0.3s ease;
 }
 
-button:hover{background-color:#BE85F3;}
+a:hover{background-color:#BE85F3;}
 
 .atroposes{
     padding-top: 1%;
@@ -56,20 +62,20 @@ button:hover{background-color:#BE85F3;}
 }   
 
 .atropos-size{
-    width: 270px;
-    height: 378px;
+    width: 260px;
+    height: 364px;
 }
 
 .card-size{
     position: absolute;
     bottom: 0px;
     left: 0px;
-    width: 270px;
-    height: 378px;
+    width: 260px;
+    height: 364px;
 }
 
 .bg-black{
     background-color: #000;
-    width: 270px;
-    height: 378px;
+    width: 260px;
+    height: 364px;
 }
