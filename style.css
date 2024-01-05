@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=ibm-plex-sans:600);
+@import url(https://fonts.bunny.net/css?family=inter:500|jetbrains-mono:600,800);
 
 *{
     margin: 0;
@@ -11,45 +11,34 @@ html{
     background-color: #a45ee5;
 }
 
-body{
-    padding-top: 30px;
+main{
     padding-bottom: 30px;
     margin: auto;
     max-width: 1000px;
 }
-h1{
+header{
     color:#17051F;
     text-align:center;
-    font-family: 'IBM Plex Sans', sans-serif;
-    margin-top: 20px;
+    font-family: 'JetBrains Mono', monospace;
     margin-bottom: 20px;
-    font-size: max(1.2vw,26px);
 }
-header{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #17051F;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+
+.card{
+    width:100%;
+    background-color: #050505;
+    text-align:center;
+    color: #fafafa;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 a{
-    width: auto;
-    padding: 10px;
-    background-color: #a45ee5;
-    border: none;
-    border-radius: 5px;
-    color: #17051F;
-    text-decoration: none;
+    color: #fafafa;
+    text-decoration: underline;
     cursor: pointer;
     transition:all 0.3s ease;
 }
-
-a:hover{background-color:#BE85F3;}
 
 .atroposes{
     padding-top: 1%;
