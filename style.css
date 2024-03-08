@@ -12,7 +12,7 @@ html{
 }
 
 main{
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     margin: auto;
     max-width: 1000px;
 }
@@ -20,24 +20,11 @@ header{
     color:#17051F;
     text-align:center;
     font-family: 'JetBrains Mono', monospace;
-    margin-bottom: 20px;
-}
-
-.card{
-    width:100%;
-    background-color: #050505;
-    text-align:center;
-    color: #fafafa;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
+    margin: 20px 0 20px;
 }
 
 a{
-    color: #fafafa;
-    text-decoration: underline;
-    cursor: pointer;
-    transition:all 0.3s ease;
+    color: #17051F;
 }
 
 .atroposes{
@@ -67,4 +54,10 @@ a{
     background-color: #000;
     width: 260px;
     height: 364px;
+}
+
+footer{
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    color: #17051F;
 }
