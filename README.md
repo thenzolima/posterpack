@@ -1,5 +1,25 @@
 ![Header](assets/header.png)
 
-O Posterpack é uma galeria de posters da cultura pop com efeito parallax. A proposta dessa coleção é explorar diversas tendências do design.
+## Instalação
 
-Tenho planos futuros de colocar novos posters e funcionalidades ao site. Esse projeto foi feito usando o [Atropos](https://atroposjs.com/) Para fazer os efeitos em parallax.
+Basta clonar este repositório usando `git clone`:
+
+```git
+git clone https://github.com/thenzolima/posterpack
+```
+
+## Feito com
+
+- [Figma](https://www.figma.com/) - Ferramenta de design.
+- [Atropos](https://atroposjs.com/) - Biblioteca JavaScript para gráficos interativos.
+- HTML / CSS Puro.
+
+## License
+
+ O projeto está sob a liçenca do MIT. Entretanto, os posters são somentes para uso pessoal!
+
+
+
+
+
+
