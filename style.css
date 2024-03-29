@@ -56,6 +56,13 @@ a{
     height: 364px;
 }
 
+.bg-white{
+    background-color: #fff;
+    width: 260px;
+    height: 364px;
+}
+
+
 footer{
     font-family: "Inter",sans-serif;
     text-align: center;
